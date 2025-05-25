@@ -1,0 +1,11 @@
+.Summary-btn{
+    width: 15vh;
+    height: 5vh;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 3vh;
+}
