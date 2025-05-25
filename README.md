@@ -30,3 +30,9 @@ step 1:so first create a slake workspace.
 step 2:after creating workspace you need to create slake app  by visiting https://api.slack.com/apps.
 step 3:after creating app you will be initiating the incomming webhook to active state by adding it to a work space.
 step 4:you will be getting a url for use to step up integration through api copy that.
+
+Coming to the Design and Architecture Decisions:
+first i went to set up the backend part written endpoints for adding,deleting,editing and getting all the tasks.
+Then create the endpoint for integration of LLM for summary generation and binding it to the Slake channel specific to the pending tasks.
+after this moved down to frontend using this endpoint for utility and created the ui for clients ie the users to give their tasks and do the editing,saving,updating and deleting facilities thorugh UI.
+And all the UI's are created using React Js.
