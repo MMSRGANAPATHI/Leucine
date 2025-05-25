@@ -1,0 +1,24 @@
+
+
+.box1{
+    display: flex;
+}
+.seperator{
+    width: 3px;
+ 
+    height: 100vh;
+    margin-left: 10vh;
+}
+
+.block1{
+ display: flex;
+  justify-content: center;  /* center horizontally */
+  align-items: center;      /* center vertically */
+  height: 100vh;  
+}
+.block2{
+    display: flex;
+    justify-content: center;  
+    height: 100vh;
+    margin-left: 6vh;
+}

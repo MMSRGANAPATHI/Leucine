@@ -1,0 +1,30 @@
+#task{
+    width: 60vh;
+    height: 5vh;
+    border:none;
+    border-bottom: black solid 2px;
+}
+#task:hover{
+    background-color: #f0f0f0;
+    border: none;
+    border-bottom: #4CAF50 solid 2px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 15px;
+}
+#submit-button{
+    width: 15vh;
+    height: 5vh;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 3vh;
+    
+}

@@ -1,0 +1,88 @@
+.task-wrapper {
+  width: 70vh;
+  height: 76vh;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.task-display-container{
+    display: flex;
+    flex-direction: column;
+}
+.task-item {
+  margin-bottom: 15px;
+}
+
+.task-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.task-lines {
+  flex-grow: 1;
+}
+
+.task-text {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.task-meta {
+  font-size: 14px;
+  color: #666;
+}
+
+.task-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+}
+
+.task-actions select {
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.task-edit-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.task-edit-block input {
+  padding: 6px;
+  font-size: 16px;
+}
+
+.task-edit-block button {
+  margin-right: 8px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.task-item{
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Summary-block{
+    margin-top: 3vh;
+    display: flex;
+    
+    align-self: center;
+}

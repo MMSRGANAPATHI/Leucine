@@ -1,0 +1,15 @@
+/* Ensure the root fills the full viewport */
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; /* Prevent scrolling */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa; /* Light background (optional) */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
